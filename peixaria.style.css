@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+background-color:#343840;
+color:rgb(238, 232, 232);
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5px 0;
+}
+
+.cabecalho-imagem{
+    width: 16%;
+}
+
+.escola-imagem{
+  width: 40%;
+}
+.escola{
+  background-image: linear-gradient(#343840, #276b84);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+.escola-div-conteudo{
+width: 50%;
+}
+
+.escola-titulo{
+  padding: 24px 0;
+}
+
+
+.rodape{
+    background-color: black;
+    text-align: center;
+  }
+  
+  .rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+  }
